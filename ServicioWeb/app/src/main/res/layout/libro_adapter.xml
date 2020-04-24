@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingTop="20dp"
+    android:paddingBottom="20dp">
+
+    <TextView
+        android:id="@+id/txtvcodigo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Codigo"
+        android:textSize="25dp"
+        android:paddingBottom="15dp"/>
+
+    <TextView
+        android:id="@+id/txtvtitulo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Titulo"
+        android:textSize="25dp"
+        android:paddingBottom="15dp" />
+
+    <TextView
+        android:id="@+id/txtvautor"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Autor"
+        android:textSize="25dp"
+        android:paddingBottom="15dp" />
+
+    <TextView
+        android:id="@+id/txtveditorial"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Editorial"
+        android:textSize="25dp"
+        android:paddingBottom="15dp" />
+
+    <TextView
+        android:id="@+id/txtvprecio"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Precio"
+        android:textSize="25dp"
+        android:paddingBottom="15dp" />
+</LinearLayout>
